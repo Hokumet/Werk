@@ -2,7 +2,7 @@ object frmReportInvoice: TfrmReportInvoice
   Left = 368
   Top = 12
   Width = 775
-  Height = 728
+  Height = 686
   Caption = 'Factuur printen'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -134,7 +134,7 @@ object frmReportInvoice: TfrmReportInvoice
     Left = 0
     Top = 33
     Width = 767
-    Height = 661
+    Height = 618
     Align = alClient
     PageColor = clWindow
     Report = repReport
@@ -584,7 +584,7 @@ object frmReportInvoice: TfrmReportInvoice
         UserName = 'Shape4'
         mmHeight = 7144
         mmLeft = 111654
-        mmTop = 129646
+        mmTop = 134938
         mmWidth = 26458
         BandType = 4
       end
@@ -593,7 +593,7 @@ object frmReportInvoice: TfrmReportInvoice
         ShiftWithParent = True
         mmHeight = 25929
         mmLeft = 111920
-        mmTop = 147902
+        mmTop = 153194
         mmWidth = 78581
         BandType = 4
       end
@@ -602,7 +602,7 @@ object frmReportInvoice: TfrmReportInvoice
         ShiftWithParent = True
         mmHeight = 19315
         mmLeft = 111920
-        mmTop = 154517
+        mmTop = 159809
         mmWidth = 26194
         BandType = 4
       end
@@ -611,7 +611,7 @@ object frmReportInvoice: TfrmReportInvoice
         ShiftWithParent = True
         mmHeight = 13229
         mmLeft = 18256
-        mmTop = 160602
+        mmTop = 165894
         mmWidth = 93927
         BandType = 4
       end
@@ -619,7 +619,7 @@ object frmReportInvoice: TfrmReportInvoice
         UserName = 'Shape3'
         mmHeight = 7144
         mmLeft = 12435
-        mmTop = 129646
+        mmTop = 134938
         mmWidth = 99484
         BandType = 4
       end
@@ -628,7 +628,7 @@ object frmReportInvoice: TfrmReportInvoice
         ShiftWithParent = True
         mmHeight = 8731
         mmLeft = 111920
-        mmTop = 173567
+        mmTop = 178859
         mmWidth = 78581
         BandType = 4
       end
@@ -637,7 +637,7 @@ object frmReportInvoice: TfrmReportInvoice
         ShiftWithParent = True
         mmHeight = 6350
         mmLeft = 12435
-        mmTop = 141817
+        mmTop = 147109
         mmWidth = 178065
         BandType = 4
       end
@@ -645,7 +645,7 @@ object frmReportInvoice: TfrmReportInvoice
         UserName = 'Shape13'
         mmHeight = 7144
         mmLeft = 164042
-        mmTop = 129646
+        mmTop = 134938
         mmWidth = 26458
         BandType = 4
       end
@@ -653,7 +653,7 @@ object frmReportInvoice: TfrmReportInvoice
         UserName = 'Shape7'
         mmHeight = 7144
         mmLeft = 137848
-        mmTop = 129646
+        mmTop = 134938
         mmWidth = 26458
         BandType = 4
       end
@@ -669,8 +669,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 6085
-        mmTop = 85461
-        mmWidth = 26988
+        mmTop = 95250
+        mmWidth = 23283
         BandType = 4
       end
       object ppDBText2: TppDBText
@@ -687,8 +687,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppMain'
         mmHeight = 4233
-        mmLeft = 35983
-        mmTop = 85461
+        mmLeft = 30692
+        mmTop = 95250
         mmWidth = 41804
         BandType = 4
       end
@@ -705,7 +705,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 5292
         mmLeft = 114036
-        mmTop = 175155
+        mmTop = 180446
         mmWidth = 41540
         BandType = 4
       end
@@ -724,7 +724,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 5292
         mmLeft = 157692
-        mmTop = 175155
+        mmTop = 180446
         mmWidth = 29633
         BandType = 4
       end
@@ -740,7 +740,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 6085
-        mmTop = 91546
+        mmTop = 100541
         mmWidth = 20373
         BandType = 4
       end
@@ -758,8 +758,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppWeek'
         mmHeight = 4233
-        mmLeft = 35983
-        mmTop = 91546
+        mmLeft = 30692
+        mmTop = 100541
         mmWidth = 41804
         BandType = 4
       end
@@ -772,7 +772,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppDetail'
         mmHeight = 5027
         mmLeft = 0
-        mmTop = 136525
+        mmTop = 141817
         mmWidth = 197300
         BandType = 4
         mmBottomOffset = 0
@@ -917,7 +917,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 6085
-        mmTop = 79904
+        mmTop = 90224
         mmWidth = 20373
         BandType = 4
       end
@@ -933,8 +933,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppMain'
         mmHeight = 4233
-        mmLeft = 35983
-        mmTop = 79904
+        mmLeft = 30692
+        mmTop = 90224
         mmWidth = 41804
         BandType = 4
       end
@@ -949,7 +949,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 7673
         mmLeft = 72761
-        mmTop = 119856
+        mmTop = 125148
         mmWidth = 30692
         BandType = 4
       end
@@ -965,7 +965,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 5821
-        mmTop = 34925
+        mmTop = 45508
         mmWidth = 14817
         BandType = 4
       end
@@ -982,9 +982,9 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
-        mmLeft = 27252
-        mmTop = 34925
-        mmWidth = 56356
+        mmLeft = 30692
+        mmTop = 45508
+        mmWidth = 60061
         BandType = 4
       end
       object ppLabel10: TppLabel
@@ -999,7 +999,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 6085
-        mmTop = 41275
+        mmTop = 51858
         mmWidth = 14552
         BandType = 4
       end
@@ -1016,9 +1016,9 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
-        mmLeft = 27252
-        mmTop = 41010
-        mmWidth = 56886
+        mmLeft = 30692
+        mmTop = 51858
+        mmWidth = 60325
         BandType = 4
       end
       object ppDBText10: TppDBText
@@ -1034,9 +1034,9 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
-        mmLeft = 43392
-        mmTop = 47361
-        mmWidth = 40481
+        mmLeft = 46567
+        mmTop = 57944
+        mmWidth = 44715
         BandType = 4
       end
       object ppDBText11: TppDBText
@@ -1052,8 +1052,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
-        mmLeft = 27252
-        mmTop = 47361
+        mmLeft = 30692
+        mmTop = 57944
         mmWidth = 15081
         BandType = 4
       end
@@ -1070,7 +1070,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4763
         mmLeft = 114036
-        mmTop = 148961
+        mmTop = 154252
         mmWidth = 23283
         BandType = 4
       end
@@ -1089,7 +1089,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4763
         mmLeft = 163777
-        mmTop = 148961
+        mmTop = 154252
         mmWidth = 23548
         BandType = 4
       end
@@ -1099,7 +1099,7 @@ object frmReportInvoice: TfrmReportInvoice
         Weight = 0.750000000000000000
         mmHeight = 1852
         mmLeft = 111920
-        mmTop = 154517
+        mmTop = 159809
         mmWidth = 78581
         BandType = 4
       end
@@ -1109,7 +1109,7 @@ object frmReportInvoice: TfrmReportInvoice
         Weight = 0.750000000000000000
         mmHeight = 1058
         mmLeft = 111920
-        mmTop = 160602
+        mmTop = 165894
         mmWidth = 78580
         BandType = 4
       end
@@ -1126,7 +1126,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 140759
-        mmTop = 155311
+        mmTop = 160602
         mmWidth = 21696
         BandType = 4
       end
@@ -1145,7 +1145,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4233
         mmLeft = 168275
-        mmTop = 155311
+        mmTop = 160602
         mmWidth = 19050
         BandType = 4
       end
@@ -1162,7 +1162,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 140759
-        mmTop = 161396
+        mmTop = 166688
         mmWidth = 22754
         BandType = 4
       end
@@ -1181,7 +1181,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4233
         mmLeft = 168275
-        mmTop = 161396
+        mmTop = 166688
         mmWidth = 19050
         BandType = 4
       end
@@ -1198,7 +1198,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 140759
-        mmTop = 167746
+        mmTop = 173038
         mmWidth = 21960
         BandType = 4
       end
@@ -1217,7 +1217,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4233
         mmLeft = 168275
-        mmTop = 167746
+        mmTop = 173038
         mmWidth = 19050
         BandType = 4
       end
@@ -1233,7 +1233,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 5821
-        mmTop = 56886
+        mmTop = 67469
         mmWidth = 20638
         BandType = 4
       end
@@ -1250,8 +1250,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
-        mmLeft = 27252
-        mmTop = 56886
+        mmLeft = 30692
+        mmTop = 67469
         mmWidth = 32808
         BandType = 4
       end
@@ -1267,7 +1267,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 83608
-        mmTop = 155840
+        mmTop = 161132
         mmWidth = 27517
         BandType = 4
       end
@@ -1282,7 +1282,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 13758
-        mmTop = 130440
+        mmTop = 135732
         mmWidth = 51065
         BandType = 4
       end
@@ -1297,7 +1297,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 139171
-        mmTop = 130440
+        mmTop = 135732
         mmWidth = 13631
         BandType = 4
       end
@@ -1312,7 +1312,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 165100
-        mmTop = 130440
+        mmTop = 135732
         mmWidth = 12171
         BandType = 4
       end
@@ -1322,7 +1322,7 @@ object frmReportInvoice: TfrmReportInvoice
         Weight = 0.750000000000000000
         mmHeight = 529
         mmLeft = 53447
-        mmTop = 166952
+        mmTop = 172244
         mmWidth = 137054
         BandType = 4
       end
@@ -1341,7 +1341,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4233
         mmLeft = 114036
-        mmTop = 161661
+        mmTop = 166952
         mmWidth = 10319
         BandType = 4
       end
@@ -1360,7 +1360,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4233
         mmLeft = 114036
-        mmTop = 168275
+        mmTop = 173567
         mmWidth = 10319
         BandType = 4
       end
@@ -1377,7 +1377,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 125942
-        mmTop = 161661
+        mmTop = 166952
         mmWidth = 3175
         BandType = 4
       end
@@ -1394,7 +1394,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 125942
-        mmTop = 168011
+        mmTop = 173302
         mmWidth = 3175
         BandType = 4
       end
@@ -1413,7 +1413,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppMain'
         mmHeight = 4233
         mmLeft = 113771
-        mmTop = 155575
+        mmTop = 160867
         mmWidth = 23019
         BandType = 4
       end
@@ -1432,7 +1432,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 74613
-        mmTop = 162454
+        mmTop = 167746
         mmWidth = 32279
         BandType = 4
       end
@@ -1451,7 +1451,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 74613
-        mmTop = 168275
+        mmTop = 173567
         mmWidth = 32279
         BandType = 4
       end
@@ -1467,7 +1467,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 113771
-        mmTop = 34131
+        mmTop = 44715
         mmWidth = 14817
         BandType = 4
       end
@@ -1485,7 +1485,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 34131
+        mmTop = 44715
         mmWidth = 56356
         BandType = 4
       end
@@ -1501,7 +1501,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 114036
-        mmTop = 40481
+        mmTop = 51065
         mmWidth = 14552
         BandType = 4
       end
@@ -1519,7 +1519,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 40217
+        mmTop = 50800
         mmWidth = 56886
         BandType = 4
       end
@@ -1537,7 +1537,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 149490
-        mmTop = 46567
+        mmTop = 57150
         mmWidth = 42333
         BandType = 4
       end
@@ -1555,7 +1555,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 46567
+        mmTop = 57150
         mmWidth = 13229
         BandType = 4
       end
@@ -1571,7 +1571,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 113771
-        mmTop = 56092
+        mmTop = 84931
         mmWidth = 20638
         BandType = 4
       end
@@ -1589,7 +1589,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 56092
+        mmTop = 84931
         mmWidth = 44979
         BandType = 4
       end
@@ -1605,7 +1605,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 113771
-        mmTop = 61383
+        mmTop = 90223
         mmWidth = 20638
         BandType = 4
       end
@@ -1623,7 +1623,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 61383
+        mmTop = 90223
         mmWidth = 44979
         BandType = 4
       end
@@ -1639,7 +1639,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 113771
-        mmTop = 66411
+        mmTop = 95250
         mmWidth = 20638
         BandType = 4
       end
@@ -1657,7 +1657,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 66411
+        mmTop = 95250
         mmWidth = 44979
         BandType = 4
       end
@@ -1672,7 +1672,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 112713
-        mmTop = 130440
+        mmTop = 135732
         mmWidth = 5821
         BandType = 4
       end
@@ -1688,7 +1688,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 6085
-        mmTop = 74348
+        mmTop = 84931
         mmWidth = 20638
         BandType = 4
       end
@@ -1705,8 +1705,8 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
-        mmLeft = 35983
-        mmTop = 74348
+        mmLeft = 30692
+        mmTop = 84931
         mmWidth = 42069
         BandType = 4
       end
@@ -1725,7 +1725,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 5292
         mmLeft = 19579
-        mmTop = 164307
+        mmTop = 169598
         mmWidth = 28840
         BandType = 4
       end
@@ -1741,7 +1741,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4064
         mmLeft = 53975
-        mmTop = 162454
+        mmTop = 167746
         mmWidth = 16933
         BandType = 4
       end
@@ -1757,7 +1757,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4064
         mmLeft = 53975
-        mmTop = 168540
+        mmTop = 173832
         mmWidth = 16341
         BandType = 4
       end
@@ -1773,7 +1773,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 113771
-        mmTop = 71702
+        mmTop = 100542
         mmWidth = 20638
         BandType = 4
       end
@@ -1791,14 +1791,14 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
         mmLeft = 135202
-        mmTop = 71702
+        mmTop = 100542
         mmWidth = 55563
         BandType = 4
       end
     end
     object ppFooterBand1: TppFooterBand
       mmBottomOffset = 0
-      mmHeight = 18521
+      mmHeight = 22225
       mmPrintPosition = 0
       object ppLabel6: TppLabel
         UserName = 'Label6'
@@ -1811,7 +1811,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 6879
-        mmTop = 3440
+        mmTop = 2646
         mmWidth = 73819
         BandType = 8
       end
@@ -1826,7 +1826,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         mmHeight = 4233
         mmLeft = 87842
-        mmTop = 3440
+        mmTop = 2646
         mmWidth = 79904
         BandType = 8
       end
@@ -1844,7 +1844,7 @@ object frmReportInvoice: TfrmReportInvoice
         DataPipelineName = 'ppCustomer'
         mmHeight = 4233
         mmLeft = 81492
-        mmTop = 3440
+        mmTop = 2646
         mmWidth = 5556
         BandType = 8
       end
