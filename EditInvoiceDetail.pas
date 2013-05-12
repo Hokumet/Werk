@@ -37,6 +37,7 @@ type
   private
     ID: Integer;
     HourPrice: Double;
+    Aangenomen:Boolean;
     TInvoiceDetail, TKlantFuncties, TFuncties, TInvoice, TCustomer: TADOTable;
     procedure setFuncties;
     procedure setVisibleEnaled;
@@ -59,6 +60,7 @@ uses Main, DB;
 constructor TfrmInvoiceDetail.Create(Owner: TComponent; ID: Integer);
 begin
   inherited Create(Owner);
+  Aangenomen:= False;
   HourPrice := 0.0;
   Self.ID := ID;
   TInvoiceDetail := TfrmMain.GetTableInvoiceDetail;
@@ -114,7 +116,8 @@ begin
       TInvoiceDetail.FieldByName('eenmalig').AsBoolean := False;
       TInvoiceDetail.FieldByName('Overwerk').AsBoolean := ckbOverwerk.Checked;
       TInvoiceDetail.FieldByName('overwerkpercentage').AsFloat := edtoverPercentage.Value;
-  end;                                                                 
+  end;
+  TInvoiceDetail.FieldByName('Aangenomen').AsBoolean := Aangenomen;                                              
   TInvoiceDetail.Post;
 end;
 
@@ -129,6 +132,10 @@ begin
   TKlantFuncties.Locate('Id', Integer(cmbFunties.Items.Objects[cmbFunties.ItemIndex]),[]);
   HourPrice := TKlantFuncties.FieldByname('Prijs').AsCurrency;
   edtHourprice.Value := HourPrice;
+  if TKlantFuncties.FieldByName('Aangenomen').AsBoolean then
+    Aangenomen := True
+  else
+    Aangenomen := False;
 end;
 
 procedure TfrmInvoiceDetail.edtHourpriceExit(Sender: TObject);

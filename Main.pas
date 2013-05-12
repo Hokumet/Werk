@@ -183,6 +183,9 @@ type
     DBTWeekDetailsSalarisTotaal: TBCDField;
     DBTWeekDetailsUurTotaal: TFloatField;
     DBTEmployeesIsBedrijf: TBooleanField;
+    DBTFunctiesAangenomen: TBooleanField;
+    DBTInvoiceDetailsAangenomen: TBooleanField;
+    DBTKlantFunctiesAangenomen: TBooleanField;
     procedure btnCloseClick(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure btnNewClick(Sender: TObject);

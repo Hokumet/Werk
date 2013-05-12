@@ -1,8 +1,8 @@
 object frmEditInvoice: TfrmEditInvoice
-  Left = 612
-  Top = 187
-  Width = 305
-  Height = 668
+  Left = 512
+  Top = 0
+  Width = 329
+  Height = 669
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Factuur wijzigen'
   Color = clBtnFace
@@ -127,7 +127,7 @@ object frmEditInvoice: TfrmEditInvoice
   object Panel3: TPanel
     Left = 128
     Top = 0
-    Width = 171
+    Width = 193
     Height = 409
     Align = alCustom
     Color = 12998969
@@ -278,7 +278,7 @@ object frmEditInvoice: TfrmEditInvoice
       Ctl3D = True
       ItemIndex = 0
       Items.Strings = (
-        'Ja - 19%'
+        'Ja - 21%'
         'Nee - Verlegd')
       ParentColor = False
       ParentCtl3D = False
@@ -333,7 +333,7 @@ object frmEditInvoice: TfrmEditInvoice
   object Panel1: TPanel
     Left = 0
     Top = 564
-    Width = 297
+    Width = 321
     Height = 70
     Align = alBottom
     Color = clBlue
@@ -675,7 +675,7 @@ object frmEditInvoice: TfrmEditInvoice
   object Panel2: TPanel
     Left = 0
     Top = 381
-    Width = 297
+    Width = 321
     Height = 183
     Align = alBottom
     Caption = 'Panel2'
@@ -685,7 +685,7 @@ object frmEditInvoice: TfrmEditInvoice
     object lvwItems: TListView
       Left = 1
       Top = 1
-      Width = 295
+      Width = 319
       Height = 150
       Align = alTop
       Columns = <
@@ -694,12 +694,11 @@ object frmEditInvoice: TfrmEditInvoice
           Width = 130
         end
         item
-          Caption = 'Uur'
-          Width = 30
+          Caption = 'Eenheid'
         end
         item
-          Caption = 'Uurpijs'
-          Width = 60
+          Caption = 'Eenheidpijs'
+          Width = 70
         end
         item
           Caption = 'Bedrag'

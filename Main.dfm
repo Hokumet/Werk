@@ -1,6 +1,6 @@
 object frmMain: TfrmMain
   Left = 269
-  Top = 174
+  Top = 148
   Width = 901
   Height = 618
   Caption = 'Administratie HK Electromontage'
@@ -21,7 +21,7 @@ object frmMain: TfrmMain
     Left = 0
     Top = 88
     Width = 893
-    Height = 477
+    Height = 476
     Align = alClient
     Columns = <>
     ReadOnly = True
@@ -215,7 +215,7 @@ object frmMain: TfrmMain
   end
   object StatusBar: TStatusBar
     Left = 0
-    Top = 565
+    Top = 564
     Width = 893
     Height = 19
     Panels = <
@@ -5144,8 +5144,9 @@ object frmMain: TfrmMain
   end
   object DBCConnection: TADOConnection
     ConnectionString = 
-      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\Hikmet\WERK\Werk' +
-      '\bin\Administratie.mdb;Persist Security Info=False'
+      'Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\Documents and Se' +
+      'ttings\DIGIT\Desktop\Werk\bin\Administratie.mdb;Persist Security' +
+      ' Info=False'
     KeepConnection = False
     LoginPrompt = False
     Mode = cmShareDenyNone
@@ -5412,6 +5413,9 @@ object frmMain: TfrmMain
     end
     object DBTInvoiceDetailsoverwerkpercentage: TFloatField
       FieldName = 'overwerkpercentage'
+    end
+    object DBTInvoiceDetailsAangenomen: TBooleanField
+      FieldName = 'Aangenomen'
     end
   end
   object DBTEigen: TADOTable
@@ -5702,6 +5706,9 @@ object frmMain: TfrmMain
       FieldName = 'Functie'
       Size = 50
     end
+    object DBTFunctiesAangenomen: TBooleanField
+      FieldName = 'Aangenomen'
+    end
   end
   object DBTKlantFuncties: TADOTable
     Connection = DBCConnection
@@ -5722,6 +5729,9 @@ object frmMain: TfrmMain
     object DBTKlantFunctiesPrijs: TBCDField
       FieldName = 'Prijs'
       Precision = 19
+    end
+    object DBTKlantFunctiesAangenomen: TBooleanField
+      FieldName = 'Aangenomen'
     end
   end
   object DBTQuery3: TADOQuery

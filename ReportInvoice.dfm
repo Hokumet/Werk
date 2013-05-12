@@ -1,8 +1,8 @@
 object frmReportInvoice: TfrmReportInvoice
-  Left = 368
-  Top = 12
+  Left = 309
+  Top = 0
   Width = 775
-  Height = 686
+  Height = 644
   Caption = 'Factuur printen'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -134,7 +134,7 @@ object frmReportInvoice: TfrmReportInvoice
     Left = 0
     Top = 33
     Width = 767
-    Height = 618
+    Height = 576
     Align = alClient
     PageColor = clWindow
     Report = repReport

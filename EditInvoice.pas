@@ -81,7 +81,8 @@ var
 
 implementation
 
-uses Main, ReportInvoice, EditInvoiceDetail, DB, DateUtils, ReportWeek;
+uses Main, ReportInvoice, EditInvoiceDetail, DB, DateUtils, ReportWeek,
+  Math;
 
 {$R *.dfm}
 
@@ -159,6 +160,7 @@ end;
 procedure TfrmEditInvoice.LoadInvoiceDetails;
 var I: Integer;
     Item: TListItem;
+    Aangenomen:Boolean;
 begin
   TInvoice.Refresh;
   TInvoiceDetail.Filtered := True;
@@ -167,6 +169,7 @@ begin
   lvwItems.Clear;
   SubTotal := 0;
   TotaalgebUren := 0;
+  Aangenomen := false;
 
   TInvoiceDetail.First;
   for I := 0 to TInvoiceDetail.RecordCount -1 do begin
@@ -179,9 +182,21 @@ begin
     SubTotal := SubTotal +  TInvoiceDetail.FieldByName('Totaalbedrag').AsCurrency;
     if not TInvoiceDetail.FieldByName('Eenmalig').AsBoolean then
       TotaalgebUren := TotaalgebUren +  TInvoiceDetail.FieldByName('Uren').AsCurrency;
+    if TInvoiceDetail.FieldByName('Aangenomen').AsBoolean then
+      Aangenomen := true;
+
     TInvoiceDetail.Next;
   end;
   lbluren.Caption := FloatToStr(Totaaluren - TotaalgebUren) + ' nog te factureren uren';
+
+  if Aangenomen then begin
+    lvwItems.Column[1].Caption := 'Eenheid';
+    lvwItems.Column[2].Caption := 'Eenheidprijs';
+  end
+  else begin
+    lvwItems.Column[1].Caption := 'Uur';
+    lvwItems.Column[2].Caption := 'Uurprijs';
+  end;
 end;
 
 procedure TfrmEditInvoice.ReCalculate;
@@ -189,7 +204,7 @@ begin
   edtSubTotal.Value := SubTotal;
 
   if rbtBtw.ItemIndex = 0 then
-    edtBtwTotal.Value := (edtSubTotal.Value * 0.19);
+    edtBtwTotal.Value := (edtSubTotal.Value * 0.21);
   if rbtBtw.ItemIndex = 1 then
     edtBtwTotal.Value := 0.00;
 

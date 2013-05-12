@@ -14,6 +14,8 @@ type
     Panel2: TPanel;
     lblName: TLabel;
     edtName: TEdit;
+    ckbAangenomen: TCheckBox;
+    Label1: TLabel;
     procedure btnOkClick(Sender: TObject);
     procedure FormShortCut(var Msg: TWMKey; var Handled: Boolean);
   private
@@ -41,12 +43,14 @@ begin
   TFuncties := TfrmMain.GetTableFuncties;
   TFuncties.Locate('ID', ID, []);
   edtName.Text := TFuncties.FieldByName('Functie').AsString;
+  ckbAangenomen.Checked := TFuncties.FieldByName('Aangenomen').AsBoolean;
 end;
 
 procedure TfrmEditFunctie.btnOkClick(Sender: TObject);
 begin
   TFuncties.Edit;
   TFuncties.FieldByName('Functie').AsString := edtName.Text;
+  TFuncties.FieldByName('Aangenomen').AsBoolean := ckbAangenomen.Checked;
   TFuncties.Post;
 end;
 

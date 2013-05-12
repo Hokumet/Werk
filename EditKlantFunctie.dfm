@@ -1,6 +1,6 @@
 object frmKlantFunctie: TfrmKlantFunctie
   Left = 412
-  Top = 304
+  Top = 305
   Width = 308
   Height = 186
   BorderIcons = [biSystemMenu, biMinimize]
@@ -64,7 +64,7 @@ object frmKlantFunctie: TfrmKlantFunctie
   end
   object Panel2: TPanel
     Left = 0
-    Top = 82
+    Top = 81
     Width = 300
     Height = 70
     Align = alBottom

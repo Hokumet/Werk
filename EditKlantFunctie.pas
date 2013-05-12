@@ -63,8 +63,12 @@ begin
   TKlantFuncties.Edit;
   TKlantFuncties.FieldByName('Functieid').AsInteger := Integer(cmbFunties.Items.Objects[cmbFunties.ItemIndex]);
   TKlantFuncties.FieldByName('Prijs').AsCurrency := edtHourprice.Value;
+    if TFuncties.Locate('ID', TKlantFuncties.FieldByName('Functieid').AsInteger, []) then
+      TKlantFuncties.FieldByName('Aangenomen').AsBoolean := TFuncties.FieldByName('Aangenomen').AsBoolean;
+
+
   TKlantFuncties.Post;
-end;                  
+end;
 
 procedure TfrmKlantFunctie.FormShortCut(var Msg: TWMKey; var Handled: Boolean);
 begin

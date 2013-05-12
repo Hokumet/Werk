@@ -1,6 +1,6 @@
 object frmInvoiceDetail: TfrmInvoiceDetail
   Left = 695
-  Top = 239
+  Top = 240
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
   Caption = 'Factuur detail'

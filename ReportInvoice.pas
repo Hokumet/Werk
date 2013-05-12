@@ -294,7 +294,7 @@ function TfrmReportInvoice.ppMainGetFieldValue(aFieldName: string): Variant;
 begin
   if aFieldName = 'Btw' then begin
     if TInvoice.FieldByName(aFieldName).AsBoolean then
-      Result := '        19 %'
+      Result := '        21 %'
     else begin
       ppDBText5.Font.Style := [fsBold];
       Result := 'Btw verlegd';

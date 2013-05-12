@@ -1,8 +1,8 @@
 object frmEditFunctie: TfrmEditFunctie
-  Left = 540
-  Top = 770
-  Width = 330
-  Height = 161
+  Left = 678
+  Top = 316
+  Width = 331
+  Height = 194
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Functie wijzigen'
   Color = clBtnFace
@@ -24,10 +24,17 @@ object frmEditFunctie: TfrmEditFunctie
     Height = 13
     Caption = 'Naam:'
   end
+  object Label1: TLabel
+    Left = 10
+    Top = 60
+    Width = 66
+    Height = 13
+    Caption = 'Aangenomen:'
+  end
   object Panel1: TPanel
     Left = 0
-    Top = 57
-    Width = 322
+    Top = 89
+    Width = 323
     Height = 70
     Align = alBottom
     Color = clBlue
@@ -228,7 +235,7 @@ object frmEditFunctie: TfrmEditFunctie
     Left = 121
     Top = 0
     Width = 201
-    Height = 57
+    Height = 89
     Color = 12998969
     TabOrder = 1
     object edtName: TEdit
@@ -237,6 +244,16 @@ object frmEditFunctie: TfrmEditFunctie
       Width = 155
       Height = 21
       TabOrder = 0
+    end
+    object ckbAangenomen: TCheckBox
+      Left = 26
+      Top = 56
+      Width = 15
+      Height = 17
+      Hint = 'Is deze factuur al betaald'
+      ParentShowHint = False
+      ShowHint = True
+      TabOrder = 1
     end
   end
 end
