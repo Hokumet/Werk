@@ -1,8 +1,8 @@
 object frmEditCustomer: TfrmEditCustomer
-  Left = 364
-  Top = 288
-  Width = 313
-  Height = 523
+  Left = 442
+  Top = 4
+  Width = 557
+  Height = 750
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Klant wijzigen'
   Color = clBtnFace
@@ -18,8 +18,8 @@ object frmEditCustomer: TfrmEditCustomer
   TextHeight = 13
   object Panel2: TPanel
     Left = 0
-    Top = 419
-    Width = 305
+    Top = 646
+    Width = 549
     Height = 70
     Align = alBottom
     Color = clBlue
@@ -219,8 +219,8 @@ object frmEditCustomer: TfrmEditCustomer
   object PageControl1: TPageControl
     Left = 0
     Top = 0
-    Width = 305
-    Height = 419
+    Width = 549
+    Height = 646
     ActivePage = TabSheet1
     Align = alClient
     TabOrder = 1
@@ -292,8 +292,8 @@ object frmEditCustomer: TfrmEditCustomer
       object Panel3: TPanel
         Left = 128
         Top = 0
-        Width = 171
-        Height = 393
+        Width = 417
+        Height = 617
         Align = alCustom
         Color = 12998969
         ParentBackground = False
@@ -405,7 +405,7 @@ object frmEditCustomer: TfrmEditCustomer
       object lvwItems: TListView
         Left = 0
         Top = 0
-        Width = 297
+        Width = 541
         Height = 177
         Align = alTop
         Columns = <

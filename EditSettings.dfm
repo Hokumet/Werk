@@ -1,8 +1,8 @@
 object frmEditSettings: TfrmEditSettings
-  Left = 572
-  Top = 216
-  Width = 305
-  Height = 577
+  Left = 476
+  Top = -1
+  Width = 430
+  Height = 763
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Instellingen'
   Color = clBtnFace
@@ -97,8 +97,8 @@ object frmEditSettings: TfrmEditSettings
   object Panel3: TPanel
     Left = 126
     Top = 0
-    Width = 171
-    Height = 473
+    Width = 384
+    Height = 657
     Align = alCustom
     Color = 12998969
     ParentBackground = False
@@ -106,7 +106,7 @@ object frmEditSettings: TfrmEditSettings
     object edtBanknaam: TEdit
       Left = 13
       Top = 296
-      Width = 121
+      Width = 223
       Height = 21
       TabOrder = 0
     end
@@ -114,21 +114,21 @@ object frmEditSettings: TfrmEditSettings
   object edtName: TEdit
     Left = 138
     Top = 20
-    Width = 155
+    Width = 223
     Height = 21
     TabOrder = 0
   end
   object edtAddress: TEdit
     Left = 138
     Top = 47
-    Width = 155
+    Width = 223
     Height = 21
     TabOrder = 1
   end
   object edtPlace: TEdit
     Left = 186
     Top = 74
-    Width = 107
+    Width = 175
     Height = 21
     TabOrder = 3
   end
@@ -142,14 +142,14 @@ object frmEditSettings: TfrmEditSettings
   object edtPhoneNumber: TEdit
     Left = 138
     Top = 102
-    Width = 114
+    Width = 140
     Height = 21
     TabOrder = 4
   end
   object Panel2: TPanel
     Left = 0
-    Top = 473
-    Width = 297
+    Top = 659
+    Width = 422
     Height = 70
     Align = alBottom
     Color = clBlue
@@ -349,21 +349,21 @@ object frmEditSettings: TfrmEditSettings
   object edtkvknr: TEdit
     Left = 138
     Top = 129
-    Width = 121
+    Width = 140
     Height = 21
     TabOrder = 5
   end
   object edtgrekening: TEdit
     Left = 138
     Top = 184
-    Width = 121
+    Width = 223
     Height = 21
     TabOrder = 7
   end
   object edtzrekening: TEdit
     Left = 138
     Top = 212
-    Width = 121
+    Width = 223
     Height = 21
     TabOrder = 8
   end
@@ -386,21 +386,21 @@ object frmEditSettings: TfrmEditSettings
   object edtEmailadres: TEdit
     Left = 138
     Top = 239
-    Width = 121
+    Width = 223
     Height = 21
     TabOrder = 9
   end
   object edtBtwnr: TEdit
     Left = 138
     Top = 157
-    Width = 121
+    Width = 140
     Height = 21
     TabOrder = 6
   end
   object edtLoonbelastingnr: TEdit
     Left = 138
     Top = 267
-    Width = 121
+    Width = 223
     Height = 21
     TabOrder = 13
   end

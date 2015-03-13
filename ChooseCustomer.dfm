@@ -3,8 +3,8 @@ object frmChooseCustomer: TfrmChooseCustomer
   Top = 413
   BorderStyle = bsDialog
   Caption = 'Kies een klant'
-  ClientHeight = 104
-  ClientWidth = 194
+  ClientHeight = 151
+  ClientWidth = 258
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -26,7 +26,7 @@ object frmChooseCustomer: TfrmChooseCustomer
   end
   object btnOk: TButton
     Left = 48
-    Top = 64
+    Top = 96
     Width = 75
     Height = 25
     Caption = 'Bevestigen'

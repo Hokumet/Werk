@@ -1,8 +1,8 @@
 object frmMain: TfrmMain
-  Left = 269
-  Top = 148
-  Width = 901
-  Height = 618
+  Left = 270
+  Top = 0
+  Width = 1203
+  Height = 704
   Caption = 'Administratie HK Electromontage'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -20,8 +20,8 @@ object frmMain: TfrmMain
   object lvwItems: TListView
     Left = 0
     Top = 88
-    Width = 893
-    Height = 476
+    Width = 1195
+    Height = 563
     Align = alClient
     Columns = <>
     ReadOnly = True
@@ -35,7 +35,7 @@ object frmMain: TfrmMain
   object pnlHeader: TPanel
     Left = 0
     Top = 60
-    Width = 893
+    Width = 1195
     Height = 28
     Align = alTop
     BevelOuter = bvNone
@@ -88,14 +88,14 @@ object frmMain: TfrmMain
   object CoolBar: TCoolBar
     Left = 0
     Top = 0
-    Width = 893
+    Width = 1195
     Height = 60
     Bands = <
       item
         Control = ToolBar
         ImageIndex = -1
         MinHeight = 56
-        Width = 893
+        Width = 1195
       end>
     Color = clBtnFace
     EdgeBorders = [ebTop]
@@ -103,7 +103,7 @@ object frmMain: TfrmMain
     object ToolBar: TToolBar
       Left = 9
       Top = 0
-      Width = 880
+      Width = 1182
       Height = 56
       AutoSize = True
       BorderWidth = 1
@@ -215,8 +215,8 @@ object frmMain: TfrmMain
   end
   object StatusBar: TStatusBar
     Left = 0
-    Top = 564
-    Width = 893
+    Top = 651
+    Width = 1195
     Height = 19
     Panels = <
       item

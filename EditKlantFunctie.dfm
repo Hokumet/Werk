@@ -1,8 +1,8 @@
 object frmKlantFunctie: TfrmKlantFunctie
-  Left = 412
-  Top = 305
-  Width = 308
-  Height = 186
+  Left = 496
+  Top = 438
+  Width = 336
+  Height = 245
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Klant functies wijzigen'
   Color = clBtnFace
@@ -31,7 +31,7 @@ object frmKlantFunctie: TfrmKlantFunctie
   object Panel3: TPanel
     Left = 128
     Top = 0
-    Width = 171
+    Width = 193
     Height = 365
     Align = alCustom
     Color = 12998969
@@ -64,8 +64,8 @@ object frmKlantFunctie: TfrmKlantFunctie
   end
   object Panel2: TPanel
     Left = 0
-    Top = 81
-    Width = 300
+    Top = 141
+    Width = 328
     Height = 70
     Align = alBottom
     Color = clBlue

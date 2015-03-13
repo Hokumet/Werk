@@ -1,8 +1,8 @@
 object frmWeekDetail: TfrmWeekDetail
-  Left = 309
-  Top = 395
-  Width = 636
-  Height = 440
+  Left = 405
+  Top = 195
+  Width = 786
+  Height = 561
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Week uren wijzigen'
   Color = clBtnFace
@@ -102,8 +102,8 @@ object frmWeekDetail: TfrmWeekDetail
   object Panel3: TPanel
     Left = 126
     Top = 0
-    Width = 502
-    Height = 345
+    Width = 651
+    Height = 457
     Align = alCustom
     Color = 12998969
     ParentBackground = False
@@ -747,8 +747,8 @@ object frmWeekDetail: TfrmWeekDetail
   end
   object Panel2: TPanel
     Left = 0
-    Top = 336
-    Width = 628
+    Top = 457
+    Width = 778
     Height = 70
     Align = alBottom
     Color = clBlue

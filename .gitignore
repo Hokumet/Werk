@@ -21,6 +21,7 @@ local.properties
 *.~dfm
 *.~pas
 *.~dpr
+.svn
 
 # External tool builders
 .externalToolBuilders/

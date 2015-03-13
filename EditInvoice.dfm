@@ -1,8 +1,8 @@
 object frmEditInvoice: TfrmEditInvoice
-  Left = 512
+  Left = 469
   Top = 0
-  Width = 329
-  Height = 669
+  Width = 608
+  Height = 897
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Factuur wijzigen'
   Color = clBtnFace
@@ -127,8 +127,8 @@ object frmEditInvoice: TfrmEditInvoice
   object Panel3: TPanel
     Left = 128
     Top = 0
-    Width = 193
-    Height = 409
+    Width = 593
+    Height = 521
     Align = alCustom
     Color = 12998969
     Font.Charset = DEFAULT_CHARSET
@@ -332,9 +332,9 @@ object frmEditInvoice: TfrmEditInvoice
   end
   object Panel1: TPanel
     Left = 0
-    Top = 564
-    Width = 321
-    Height = 70
+    Top = 745
+    Width = 600
+    Height = 118
     Align = alBottom
     Color = clBlue
     Locked = True
@@ -674,9 +674,9 @@ object frmEditInvoice: TfrmEditInvoice
   end
   object Panel2: TPanel
     Left = 0
-    Top = 381
-    Width = 321
-    Height = 183
+    Top = 520
+    Width = 600
+    Height = 225
     Align = alBottom
     Caption = 'Panel2'
     Color = clRed
@@ -685,7 +685,7 @@ object frmEditInvoice: TfrmEditInvoice
     object lvwItems: TListView
       Left = 1
       Top = 1
-      Width = 319
+      Width = 598
       Height = 150
       Align = alTop
       Columns = <

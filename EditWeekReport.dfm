@@ -1,8 +1,8 @@
 object frmEditWeekReport: TfrmEditWeekReport
   Left = 488
-  Top = 142
-  Width = 433
-  Height = 464
+  Top = -2
+  Width = 579
+  Height = 771
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Weekrapport wijzigen'
   Color = clBtnFace
@@ -72,9 +72,9 @@ object frmEditWeekReport: TfrmEditWeekReport
   end
   object Panel1: TPanel
     Left = 0
-    Top = 360
-    Width = 425
-    Height = 70
+    Top = 624
+    Width = 571
+    Height = 113
     Align = alBottom
     Color = clBlue
     Font.Charset = DEFAULT_CHARSET
@@ -427,8 +427,8 @@ object frmEditWeekReport: TfrmEditWeekReport
   object Panel3: TPanel
     Left = 126
     Top = 0
-    Width = 323
-    Height = 265
+    Width = 443
+    Height = 401
     Align = alCustom
     Color = 12998969
     Font.Charset = DEFAULT_CHARSET
@@ -493,9 +493,9 @@ object frmEditWeekReport: TfrmEditWeekReport
   end
   object Panel2: TPanel
     Left = 0
-    Top = 177
-    Width = 425
-    Height = 183
+    Top = 384
+    Width = 571
+    Height = 240
     Align = alBottom
     Color = clRed
     ParentBackground = False
@@ -641,7 +641,7 @@ object frmEditWeekReport: TfrmEditWeekReport
     object lvwItems: TListView
       Left = 1
       Top = 1
-      Width = 423
+      Width = 569
       Height = 150
       Align = alTop
       Columns = <

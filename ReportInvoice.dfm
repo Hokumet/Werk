@@ -1,8 +1,8 @@
 object frmReportInvoice: TfrmReportInvoice
-  Left = 309
+  Left = 373
   Top = 0
   Width = 775
-  Height = 644
+  Height = 752
   Caption = 'Factuur printen'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -134,7 +134,7 @@ object frmReportInvoice: TfrmReportInvoice
     Left = 0
     Top = 33
     Width = 767
-    Height = 576
+    Height = 685
     Align = alClient
     PageColor = clWindow
     Report = repReport
@@ -609,10 +609,10 @@ object frmReportInvoice: TfrmReportInvoice
       object ppShape2: TppShape
         UserName = 'Shape2'
         ShiftWithParent = True
-        mmHeight = 13229
-        mmLeft = 18256
+        mmHeight = 13228
+        mmLeft = 12700
         mmTop = 160602
-        mmWidth = 93927
+        mmWidth = 99484
         BandType = 4
       end
       object ppShape3: TppShape
@@ -1321,9 +1321,9 @@ object frmReportInvoice: TfrmReportInvoice
         ShiftWithParent = True
         Weight = 0.750000000000000000
         mmHeight = 529
-        mmLeft = 53447
+        mmLeft = 44450
         mmTop = 166952
-        mmWidth = 137054
+        mmWidth = 146050
         BandType = 4
       end
       object ppDBText23: TppDBText
@@ -1431,9 +1431,9 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
-        mmLeft = 74613
+        mmLeft = 63236
         mmTop = 162454
-        mmWidth = 32279
+        mmWidth = 47625
         BandType = 4
       end
       object ppDBText18: TppDBText
@@ -1450,9 +1450,9 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppEigen'
         mmHeight = 4233
-        mmLeft = 74613
+        mmLeft = 63236
         mmTop = 168275
-        mmWidth = 32279
+        mmWidth = 47625
         BandType = 4
       end
       object ppLabel5: TppLabel
@@ -1724,7 +1724,7 @@ object frmReportInvoice: TfrmReportInvoice
         Transparent = True
         DataPipelineName = 'ppEigen'
         mmHeight = 5292
-        mmLeft = 19579
+        mmLeft = 13758
         mmTop = 164307
         mmWidth = 28840
         BandType = 4
@@ -1740,7 +1740,7 @@ object frmReportInvoice: TfrmReportInvoice
         Font.Style = []
         Transparent = True
         mmHeight = 4064
-        mmLeft = 53975
+        mmLeft = 44450
         mmTop = 162454
         mmWidth = 16933
         BandType = 4
@@ -1756,7 +1756,7 @@ object frmReportInvoice: TfrmReportInvoice
         Font.Style = []
         Transparent = True
         mmHeight = 4064
-        mmLeft = 53975
+        mmLeft = 44450
         mmTop = 168540
         mmWidth = 16341
         BandType = 4

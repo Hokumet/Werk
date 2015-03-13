@@ -1,8 +1,8 @@
 object frmReportWeekd: TfrmReportWeekd
-  Left = 435
-  Top = 207
-  Width = 584
-  Height = 640
+  Left = 420
+  Top = -1
+  Width = 789
+  Height = 766
   Caption = 'Week rapport printen'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -18,19 +18,19 @@ object frmReportWeekd: TfrmReportWeekd
   object CoolBar1: TCoolBar
     Left = 0
     Top = 0
-    Width = 576
+    Width = 781
     Height = 33
     Bands = <
       item
         Control = tbMain
         ImageIndex = -1
         MinHeight = 26
-        Width = 572
+        Width = 777
       end>
     object tbMain: TToolBar
       Left = 9
       Top = 0
-      Width = 559
+      Width = 764
       Height = 26
       ButtonHeight = 25
       ButtonWidth = 25
@@ -132,8 +132,8 @@ object frmReportWeekd: TfrmReportWeekd
   object ppViewer: TppViewer
     Left = 0
     Top = 33
-    Width = 576
-    Height = 572
+    Width = 781
+    Height = 698
     Align = alClient
     PageColor = clWindow
     Report = repReport
@@ -554,7 +554,7 @@ object frmReportWeekd: TfrmReportWeekd
     PrinterSetup.BinName = 'Default'
     PrinterSetup.DocumentName = 'Report'
     PrinterSetup.Orientation = poLandscape
-    PrinterSetup.PaperName = 'A4 210 x 297 mm'
+    PrinterSetup.PaperName = 'A4'
     PrinterSetup.PrinterName = 'Default'
     PrinterSetup.mmMarginBottom = 6350
     PrinterSetup.mmMarginLeft = 6350
@@ -646,7 +646,7 @@ object frmReportWeekd: TfrmReportWeekd
           PrinterSetup.BinName = 'Default'
           PrinterSetup.DocumentName = 'Report'
           PrinterSetup.Orientation = poLandscape
-          PrinterSetup.PaperName = 'A4 210 x 297 mm'
+          PrinterSetup.PaperName = 'A4'
           PrinterSetup.PrinterName = 'Default'
           PrinterSetup.mmMarginBottom = 6350
           PrinterSetup.mmMarginLeft = 6350

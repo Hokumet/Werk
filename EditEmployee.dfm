@@ -1,8 +1,8 @@
 object frmEditEmployee: TfrmEditEmployee
-  Left = 678
-  Top = 256
-  Width = 305
-  Height = 541
+  Left = 431
+  Top = 50
+  Width = 551
+  Height = 703
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Werknemer wijzigen'
   Color = clBtnFace
@@ -82,8 +82,8 @@ object frmEditEmployee: TfrmEditEmployee
   object Panel3: TPanel
     Left = 128
     Top = 0
-    Width = 171
-    Height = 433
+    Width = 417
+    Height = 601
     Align = alCustom
     Color = 12998969
     ParentBackground = False
@@ -133,8 +133,8 @@ object frmEditEmployee: TfrmEditEmployee
   end
   object Panel2: TPanel
     Left = 0
-    Top = 437
-    Width = 297
+    Top = 599
+    Width = 543
     Height = 70
     Align = alBottom
     Color = clBlue

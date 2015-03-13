@@ -1,8 +1,8 @@
 object frmReportWeek: TfrmReportWeek
-  Left = 410
-  Top = 204
-  Width = 584
-  Height = 640
+  Left = 374
+  Top = -9
+  Width = 722
+  Height = 774
   Caption = 'Week rapport printen'
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -18,19 +18,19 @@ object frmReportWeek: TfrmReportWeek
   object CoolBar1: TCoolBar
     Left = 0
     Top = 0
-    Width = 576
+    Width = 714
     Height = 33
     Bands = <
       item
         Control = tbMain
         ImageIndex = -1
         MinHeight = 26
-        Width = 572
+        Width = 710
       end>
     object tbMain: TToolBar
       Left = 9
       Top = 0
-      Width = 559
+      Width = 697
       Height = 26
       ButtonHeight = 25
       ButtonWidth = 25
@@ -132,8 +132,8 @@ object frmReportWeek: TfrmReportWeek
   object ppViewer: TppViewer
     Left = 0
     Top = 33
-    Width = 576
-    Height = 573
+    Width = 714
+    Height = 706
     Align = alClient
     PageColor = clWindow
     Report = repReport

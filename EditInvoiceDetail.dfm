@@ -1,11 +1,11 @@
 object frmInvoiceDetail: TfrmInvoiceDetail
-  Left = 695
-  Top = 240
+  Left = 706
+  Top = 236
   BorderIcons = [biSystemMenu, biMinimize]
   BorderStyle = bsDialog
   Caption = 'Factuur detail'
-  ClientHeight = 325
-  ClientWidth = 299
+  ClientHeight = 435
+  ClientWidth = 428
   Color = clBtnFace
   ParentFont = True
   OldCreateOrder = True
@@ -78,7 +78,7 @@ object frmInvoiceDetail: TfrmInvoiceDetail
   object Panel3: TPanel
     Left = 128
     Top = 0
-    Width = 171
+    Width = 297
     Height = 365
     Align = alCustom
     Color = 12998969
@@ -191,8 +191,8 @@ object frmInvoiceDetail: TfrmInvoiceDetail
   end
   object Panel2: TPanel
     Left = 0
-    Top = 255
-    Width = 299
+    Top = 365
+    Width = 428
     Height = 70
     Align = alBottom
     Color = clBlue

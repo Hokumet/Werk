@@ -1,8 +1,8 @@
 object frmFuncties: TfrmFuncties
-  Left = 510
-  Top = 330
-  Width = 318
-  Height = 418
+  Left = 613
+  Top = 202
+  Width = 490
+  Height = 474
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'frmFuncties'
   Color = clBtnFace
@@ -19,8 +19,8 @@ object frmFuncties: TfrmFuncties
   object Panel1: TPanel
     Left = 0
     Top = 0
-    Width = 293
-    Height = 41
+    Width = 482
+    Height = 97
     Align = alTop
     Caption = 'Functies beheren'
     Color = 12998969
@@ -36,8 +36,8 @@ object frmFuncties: TfrmFuncties
   end
   object Panel2: TPanel
     Left = 0
-    Top = 41
-    Width = 293
+    Top = 97
+    Width = 482
     Height = 343
     Align = alBottom
     Caption = 'Panel2'
@@ -45,12 +45,12 @@ object frmFuncties: TfrmFuncties
     ParentBackground = False
     TabOrder = 1
     DesignSize = (
-      293
+      482
       343)
     object lvwItems: TListView
       Left = 1
       Top = 1
-      Width = 291
+      Width = 480
       Height = 310
       Align = alTop
       Anchors = [akLeft, akTop, akRight, akBottom]

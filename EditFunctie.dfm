@@ -1,8 +1,8 @@
 object frmEditFunctie: TfrmEditFunctie
-  Left = 678
-  Top = 316
-  Width = 331
-  Height = 194
+  Left = 816
+  Top = 422
+  Width = 354
+  Height = 226
   BorderIcons = [biSystemMenu, biMinimize]
   Caption = 'Functie wijzigen'
   Color = clBtnFace
@@ -33,8 +33,8 @@ object frmEditFunctie: TfrmEditFunctie
   end
   object Panel1: TPanel
     Left = 0
-    Top = 89
-    Width = 323
+    Top = 122
+    Width = 346
     Height = 70
     Align = alBottom
     Color = clBlue
@@ -234,8 +234,8 @@ object frmEditFunctie: TfrmEditFunctie
   object Panel2: TPanel
     Left = 121
     Top = 0
-    Width = 201
-    Height = 89
+    Width = 224
+    Height = 121
     Color = 12998969
     TabOrder = 1
     object edtName: TEdit

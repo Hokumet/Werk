@@ -1,8 +1,8 @@
 object frmEditLateInvoice: TfrmEditLateInvoice
   Left = 297
   Top = 159
-  Width = 498
-  Height = 492
+  Width = 767
+  Height = 506
   Caption = 'Niet betaalde facturen                                         '
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -17,7 +17,7 @@ object frmEditLateInvoice: TfrmEditLateInvoice
   object Label1: TLabel
     Left = 0
     Top = 0
-    Width = 490
+    Width = 759
     Height = 16
     Align = alTop
     Caption = 
@@ -34,8 +34,8 @@ object frmEditLateInvoice: TfrmEditLateInvoice
   object lvwItems: TListView
     Left = 0
     Top = 16
-    Width = 490
-    Height = 352
+    Width = 759
+    Height = 365
     Align = alClient
     Columns = <
       item
@@ -65,8 +65,8 @@ object frmEditLateInvoice: TfrmEditLateInvoice
   end
   object Panel1: TPanel
     Left = 0
-    Top = 368
-    Width = 490
+    Top = 381
+    Width = 759
     Height = 20
     Align = alBottom
     Caption = 'Dubbelklik op een regel om te bewerken'
@@ -74,8 +74,8 @@ object frmEditLateInvoice: TfrmEditLateInvoice
   end
   object Panel2: TPanel
     Left = 0
-    Top = 388
-    Width = 490
+    Top = 401
+    Width = 759
     Height = 70
     Align = alBottom
     Anchors = [akRight, akBottom]
@@ -84,10 +84,10 @@ object frmEditLateInvoice: TfrmEditLateInvoice
     ParentBackground = False
     TabOrder = 2
     DesignSize = (
-      490
+      759
       70)
     object BitBtn1: TBitBtn
-      Left = 434
+      Left = 685
       Top = 8
       Width = 49
       Height = 49
@@ -134,7 +134,7 @@ object frmEditLateInvoice: TfrmEditLateInvoice
         798679AC798679AC798679AC7986F3F3F30CFFFFFF00FFFFFF00}
     end
     object BitBtn2: TBitBtn
-      Left = 383
+      Left = 606
       Top = 8
       Width = 49
       Height = 49
